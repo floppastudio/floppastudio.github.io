@@ -19,6 +19,10 @@ h1 {
     font-weight: 400;
 }
 
+.beta-header {
+    font-weight: 900;
+}
+
 .beta-svg {
     vertical-align: middle;
     width: 58;
