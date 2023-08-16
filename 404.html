@@ -26,6 +26,7 @@
     <div class="body-nfp">
         <img src="images/4042.svg">
         <h3>Ой-ой. Такой страницы не существует!</h3>
+        <h4 id="carrot">Сервис временно недоступен.</h4>
         <a class="header-element-m" href="">...</a>
         <button class="button-accent" id="returntohome">Вернуться на главную</button>
         <script>
@@ -36,3 +37,8 @@
         </script>
     </div>
 </body>
+
+<script>
+    a = document.getElementById('carrot')
+    a.textContent="Страницы "+document.location.href+" не существует!";
+</script>
