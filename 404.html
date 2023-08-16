@@ -26,19 +26,25 @@
     <div class="body-nfp">
         <img src="images/4042.svg">
         <h3>Ой-ой. Такой страницы не существует!</h3>
-        <h4 id="carrot">Сервис временно недоступен.</h4>
+        <p id="a">Ошибка чтения адреса страницы.<b id="b"></b><p id="c"></p></p>
         <a class="header-element-m" href="">...</a>
         <button class="button-accent" id="returntohome">Вернуться на главную</button>
+        
         <script>
             button = document.getElementById('returntohome')
             button.onclick = function() {
                 document.location.href = "index.html"
             }
         </script>
+
     </div>
 </body>
 
 <script>
-    a = document.getElementById('carrot')
-    a.textContent="Страницы "+document.location.href+" не существует!";
+    a = document.getElementById('a')
+    b = document.getElementById('b')
+    c = document.getElementById('c')
+    a.textContent="Страницы ";
+    b.textContent=document.location.pathname;
+    c.textContent=" не существует ";
 </script>
