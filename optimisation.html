@@ -24,15 +24,15 @@
 
 <body>
     <div class="body-nfp">
-        <img src="images/4042.svg">
-        <h3>Ой-ой. Такой страницы не существует!</h3>
-        <a class="header-element-m" href="">...</a>
-        <button class="button-accent" id="returntohome">Вернуться на главную</button>
-        <script>
-            button = document.getElementById('returntohome')
-            button.onclick = function() {
-                document.location.href = "index.html"
-            }
-        </script>
+        <img src="images/Mobile.svg">
+        <h3>Упс! Сайт не оптимизирован под мобильные устройства!</h3>
     </div>
 </body>
+
+<script>
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    
+  } else {
+    document.location.href = "index.html"
+}
+</script>

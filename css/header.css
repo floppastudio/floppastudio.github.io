@@ -15,6 +15,7 @@
 }
 
 .header-element-a {
+    min-width: max-content;
     margin-top: 3px;
     margin-left: 15px;
     font-family: 'Noto Sans Medium';
@@ -28,4 +29,14 @@
     margin-left: 15px;
     text-decoration: none;
     color: rgba(0, 0, 0, 0);
+}
+
+.header-element-n{
+    margin-top: 3px;
+    margin-left: 15px;
+    font-family: 'Noto Sans Medium';
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    max-width: 300px;
 }
