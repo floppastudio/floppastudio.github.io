@@ -1,14 +1,12 @@
-body{
-	font-family: 'Noto Sans', sans-serif;
-}
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 }
 .container{
+	flex: 1 1 auto;
 	max-width: 1170px;
-	margin:auto;
+	margin:20px;
 }
 .row{
 	display: flex;
@@ -108,4 +106,12 @@ p2 {
 	font-family: 'Montserrat Black';
 	font-weight: 900;
 	color: #fff;
+}
+p3 {
+	margin-left: 14px;
+	margin-top: 8px;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	color: #fff;
+	font-size: 12px;
 }

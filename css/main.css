@@ -1,9 +1,13 @@
 body {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     line-height: 1.75em;
+    min-height: 100%;
+    display: grid;
 }
 
-
+html {
+    height: 100%;
+}
 
 a {
     font-family: 'Noto Sans';
@@ -60,4 +64,14 @@ h6 {
     margin-left: 1%;
     margin-top: 10px;
     margin-bottom: 10px;
+    grid-template-rows: 1fr auto;
+}
+
+.body-nfp {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 365px;
 }
