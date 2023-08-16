@@ -1,18 +1,43 @@
-@font-face {
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/notosans/v30/o-0NIpQlx3QUlC5A4PNjFhdVadyB1Wk.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+body {
+    background-color: #ffffff;
+    line-height: 1.75em;
 }
 
-p1 {
+
+
+a {
     font-family: 'Noto Sans';
+    color: #000;
+    text-decoration: none;
+}
+p {
+    font-family: 'Noto Sans';
+    color: #000;
 }
 
 h1 {
-    font-family: 'Noto Sans';
+    font-family: 'Montserrat Black';
+    color: #000;
+}
+h2 {
+    font-family: 'Montserrat ExtraBold';
+    color: #000;
+}
+h3 {
+    font-family: 'Montserrat SemiBold';
+    color: #000;
+}
+h4 {
+    font-family: 'Montserrat Medium';
+    color: #000;
+}
+h5 {
+    font-family: 'Montserrat Light';
+    color: #000;
+}
+h6 {
+    font-family: 'Montserrat ExtraLight';
+    color: #000;
 }
 
 .medium-header {
@@ -24,7 +49,15 @@ h1 {
 }
 
 .beta-svg {
+    color: #fff;
     vertical-align: middle;
     width: 58;
     height: 37;
+}
+
+.body {
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
