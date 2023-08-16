@@ -29,7 +29,7 @@
         <p id="a">Ошибка чтения адреса страницы.<b id="b"></b><p id="c"></p></p>
         <a class="header-element-m" href="">...</a>
         <button class="button-accent" id="returntohome">Вернуться на главную</button>
-        
+
         <script>
             button = document.getElementById('returntohome')
             button.onclick = function() {
@@ -45,6 +45,6 @@
     b = document.getElementById('b')
     c = document.getElementById('c')
     a.textContent="Страницы ";
-    b.textContent=document.location.pathname;
+    b.textContent=document.location.origin;
     c.textContent=" не существует ";
 </script>
