@@ -31,8 +31,9 @@
     color: rgba(0, 0, 0, 0);
 }
 .header-element-s {
+    line-height: 0.5;
     margin-top: 3px;
-    font-size: 2px;
+    font-size: x-small;
     margin-left: 15px;
     text-decoration: none;
     color: rgba(0, 0, 0, 0);
