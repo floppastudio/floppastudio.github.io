@@ -28,12 +28,19 @@
         <h3>Ой-ой. Такой страницы не существует!</h3>
         <p>Страницы <b id="a"></b> не существует</p>
         <a class="header-element-m" href="">...</a>
-        <button class="button-accent" id="returntohome">Вернуться на главную</button>
+        <div class="web-row">
+            <button class="button-accent" id="returntohome">Вернуться на главную</button>
+            <button class="button" id="returnback">Вернуться назад</button>
+        </div>
 
         <script>
             button = document.getElementById('returntohome')
             button.onclick = function() {
                 document.location.href = "index.html"
+            }
+            returnback = document.getElementById('returnback')
+            returnback.onclick = function() {
+                history.back()
             }
         </script>
 
